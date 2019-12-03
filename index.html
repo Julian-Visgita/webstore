@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Document title]</title>
+    <title>[Angel app]</title>
     <meta name="description" content="[A short description]">
     <meta name="author" content="[Your Name]">
     <link rel="stylesheet" href="css/reset.css"> <!-- You may change this "Reset" to "Normalize" if preferred -->
@@ -13,9 +13,17 @@
   <body>
     <header>
       <!-- Site logo, replace with your own -->
-      <a href="index.html"><img src="img/logo.svg" alt="HTML Logo (replace this)"></a>
+      <a href="index.html"><img src="img/angel bubble.png" alt="HTML Logo (replace this)"></a>
 
       <!-- Navigation menu and toggle button (non-functional) -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<div class="icon-bar">
+				<!-- <p class="hide-this">Hi all I want this hidden at a certain size</p> -->
+				 <a class="active" href="#home"><div class="TopBar"><i class="fa fa-mortar-board"></i></div><div class="TopBar"><h7 class="hide-this"><p style="font-size:20px">STUDENT SUCCESS</p></h7></div></a>
+				 <a href="#"><div class="TopBar"><i class="fa fa-pencil"></i></div><div class="TopBar"><h7 class="hide-this"><p style="font-size:20px">APPLY NOW</p></h7></div></a>
+				 <a href="#"><div class="TopBar"><i class="fa fa-mobile-phone"></i></div><div class="TopBar"><h7 class="hide-this"><p style="font-size:20px">CONTACT US</p></h7></div></a>
+				 <a href="#"><div class="TopBar"><img src="img/Logo 1.png" class="responsive"></div></a> 
+			</div>
       <nav aria-label="Primary">
         <button type="button">
           <span class="material-icons">menu</span>
@@ -267,7 +275,7 @@
               <footer>
                 <dl>
                   <dt>Rating</dt>
-                  <dd>4.4 <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd>
+                  <dd class="Stars">4.4 <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd>
                 </dl>
                 <data value="39"><del>$50.00</del> <ins>$39.00</ins></data>
                 <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
@@ -350,5 +358,10 @@
     </footer>
 
     <script src="js/index.js"></script>
+
+    <h1>Arrays</h1>
+    <ul id= "visited"></ul>
+    <script src="js/index.js"></script>
+
   </body>
 </html>
