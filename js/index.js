@@ -1,3 +1,18 @@
+/****** PENULTIMA CLASS ******///// FILTER
+
+//DATA
+
+
+//FUNCTION
+
+
+//EXECUTION
+
+
+
+
+
+
 /****** data
 
 let itemsInCart = 0;
