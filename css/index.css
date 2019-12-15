@@ -34,8 +34,9 @@
 
 .product {
     display: flex;
-    flex-wrap: wrap;    
-    background-color: rgb(85, 250, 140);
+    flex-wrap: wrap;   
+    width: 33%; 
+    background-color: rgb(253, 253, 253);
     padding: 0 1em;
     margin: 1em 0;
     overflow: hidden;
@@ -54,7 +55,7 @@ color: rgb(119, 119, 119);
 
 
 body {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(253, 194, 255);
     color: #111;
     font: 1em helvetica, arial, serif;
 }
