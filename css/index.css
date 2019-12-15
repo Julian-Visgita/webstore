@@ -1,18 +1,31 @@
 
+/*LAMBORGHINI VERSION*/
+
+.img.resize {
+  width: 10;
+  height: 10;
+}
+.logo {
+  width: 10;
+  height: 10;
+}
+
+/*FOR BAR*/
+
 .icon-bar {
     width: 100%; /* Full-width */
-    background-color:  rgba(150, 150, 150, 0.0); /* Dark-grey background */
+    background-color:  rgba(150, 150, 150, 0.0);
     overflow: auto; /* Overflow due to float */
   }
   
   .icon-bar a {
     float: left; /* Float links side by side */
-    text-align: center; /* Center-align text */
+    text-align: center;
     width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
     padding: 2px 0; /* Some top and bottom padding */
-    transition: all 0.3s ease; /* Add transition for hover effects */
-    color: rgb(255, 255, 255); /* White text color */
-    font-size: 36px; /* Increased font size */
+    transition: all 0.3s ease;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
   }
   
   .icon-bar a:hover {
