@@ -1,14 +1,7 @@
 
 /*LAMBORGHINI VERSION*/
 
-.img.resize {
-  width: 10;
-  height: 10;
-}
-.logo {
-  width: 10;
-  height: 10;
-}
+
 
 /*FOR BAR*/
 
@@ -29,7 +22,7 @@
     color: rgb(255, 255, 255);
     font-size: 36px;
   }
-  
+
   .icon-bar a:hover {
     background-color: #000;
   }
