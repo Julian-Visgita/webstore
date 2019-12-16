@@ -35,7 +35,7 @@
 .product {
     display: flex;
     flex-wrap: wrap;   
-    width: 33%; 
+    width: 25em; 
     background-color: rgb(253, 253, 253);
     padding: 0 1em;
     margin: 1em 0;
@@ -43,6 +43,12 @@
     box-shadow: 0 0 1em rgba(0,0,0,0.4);
   }
 
+.proimage {
+  width: 40;
+  height: 40;
+
+
+}
 
 
   
