@@ -14,6 +14,7 @@
 
 .icon-bar {
     width: 100%; /* Full-width */
+    height: 5em;
     background-color:  rgba(150, 150, 150, 0.0);
     overflow: auto; /* Overflow due to float */
   }
@@ -22,6 +23,7 @@
     float: left; /* Float links side by side */
     text-align: center;
     width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
+    height: 2em;
     padding: 2px 0; /* Some top and bottom padding */
     transition: all 0.3s ease;
     color: rgb(255, 255, 255);
@@ -29,7 +31,7 @@
   }
   
   .icon-bar a:hover {
-    background-color: #000; /* Add a hover color */
+    background-color: #000;
   }
 
 .product {
