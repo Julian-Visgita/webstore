@@ -17,7 +17,7 @@
     text-align: center;
     width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
     height: 2em;
-    padding: 2px 0; /* Some top and bottom padding */
+    padding: 2px 0;
     transition: all 0.3s ease;
     color: rgb(255, 255, 255);
     font-size: 36px;
@@ -26,6 +26,8 @@
   .icon-bar a:hover {
     background-color: #000;
   }
+
+  
 
 .product {
     display: flex;
