@@ -16,7 +16,7 @@
     float: left; /* Float links side by side */
     text-align: center;
     width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
-    height: 2em;
+    height: 3em;
     padding: 2px 0;
     transition: all 0.3s ease;
     color: rgb(255, 255, 255);
@@ -40,8 +40,18 @@
     box-shadow: 0 0 1em rgba(0,0,0,0.4);
   }
 
-
-
+  .products {
+    display: grid;
+    flex-wrap: wrap;
+  }
+  /* FOR GRID
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+  }
+*/
   
 
 /*ORIGINAL FROM FILE*/
